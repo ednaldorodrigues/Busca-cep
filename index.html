@@ -11,7 +11,7 @@
 
     <form id="form">
         <h1>BuscaCep</h1>
-        <input type="text" id="input" maxlength="9" placeholder="Digite o CEP" style="font-size: 1rem; font-weight: bold; text-align: center;" oninput="this.value = this.value.replace(/[^0-9\-]/g,'')">
+        <input type="text" id="input" maxlength="9" placeholder="Digite o CEP" style="font-size: 1rem; font-weight: bold; text-align: center;" oninput="formatarCEP(this)">
         <button id="btn">BUSCAR</button>
 
         <div id="infos">

@@ -23,6 +23,17 @@ function enviar(event) {
     
 }
 
+function formatarCEP(input) {
+    let cep = input.value.replace(/[^0-9]/g, '');
+    cep = cep.substring(0, 8);
+
+    if (cep.length > 5) {
+        cep = cep.substring(0, 5) + '-' + cep.substring(5);
+    }
+
+    input.value = cep;
+}
+
 btn.addEventListener('click', enviar);
 
 

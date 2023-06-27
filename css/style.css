@@ -64,9 +64,10 @@ form {
 
 #erro.active {
     font-size: 1.5rem;
-    background: red;
+    background: #cececb;
     padding: 10px;
+    border: 2px solid red;
     border-radius: 4px;
-    color: white;
+    color: red;
     font-weight: bold;
 }
