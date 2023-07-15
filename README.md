@@ -5,7 +5,7 @@ O projeto "Buscador de CEP" é uma aplicação desenvolvida em JavaScript que pe
 Gostaria de experimentar o Buscador de CEP em ação? Não perca a oportunidade de ter sua própria experiência e explorar as funcionalidades deste projeto.
 
 # Como Testar
-1. Acesse https://ednaldorodrigues.github.io/Busca-cep/ ou clone este repositório para sua máquina local.
+1. Acesse https://busca-cep-js-2g44.vercel.app/ ou clone este repositório para sua máquina local.
 
 2. Abra a aplicação no seu navegador favorito.
 
